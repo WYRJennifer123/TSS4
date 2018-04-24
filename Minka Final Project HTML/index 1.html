@@ -1,0 +1,409 @@
+<!-- Name:Jennifer
+Title:Personal website
+Assignemnt:Final Project,Tools Software and Systems,Semester 4
+Date:23/4/2018 -->
+<!DOCTYPE html>
+<html lang="en"> <!-- Identify Chinese -->
+<head>
+<meta charset="utf-8"> <!-- Identify Chinese -->
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Page scaling -->
+<title>Jennifer - Interactive Media Art & Designer</title><!--Jennifer - Interactive Media Art & Designer-->
+<meta name="description" content="Personal website"><!-- Website content is personal website -->
+<meta name="author" content="Jennifer"><!-- Author is Jennifer -->
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css"> <!-- Add css language inside the HTML -->
+
+<!-- Style -->
+<link rel="stylesheet" type="text/css"  href="css/style.css"> <!-- Add css language inside the HTML -->
+
+</head>
+<body>
+	<div class="wrap"> <!-- Static web page elements is "wrap" -->
+       <audio autoplay="autoplay" src="http://sd.freeisland.net/o_1c4efkd3u9dkfjltv814v6i4a9.mp3" loop="-1"></audio> <!-- Add a music -->
+    </div>
+</body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"> <!-- Responsive navigation bar -->
+
+<!-- Header -->
+<header class="intro"> <!-- Static web page elements is "intro" -->
+  <div class="intro-body"> <!-- Static web page elements is "intro-body" -->
+    <div class="container"> <!-- Static web page elements is "container" -->
+      <div class="row"> <!-- Static web page elements is "row" -->
+        <div class="intro-text"> <!-- Static web page elements is "intro-textr" -->
+          <h1>Hello, I'm Jennifer</h1> <!-- First level title is "Hello, I'm Jennifer" -->
+          <p>Interactive Media Art & Designer</p> <!-- Paragraph content is "Interactive Media Art & Designer" -->
+          <a href="#about" class="btn btn-default btn-lg page-scroll">About Me</a> <!-- redirect to "About Me" -->
+          <a href="#portfolio" class="btn btn-default btn-lg page-scroll">My Portfolio</a> <!-- redirect to "My Portfolio" -->
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Navigation -->
+<div id="nav"> <!-- Static web page elements is "nav" -->
+  <nav class="navbar navbar-custom"> <!-- Responsive navigation bar -->
+    <div class="container"> <!-- Static web page elements is "container" -->
+      <div class="navbar-header"> <!-- Static web page elements is "navbar-header" -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <!-- When the screen is smaller than a certain size, the navigation bar will be automatically hidden, and the buttons that become three “horizontal lines” are displayed on the navigation bar. Click this button on the navigation bar to display the navigation menu. -->
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top">Jennifer</a> </div> <!-- Site name is "Jennifer" -->
+      
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse"> <!-- Static web page elements is "collapse navbar-collapse navbar-right navbar-main-collapse" -->
+        <ul class="nav navbar-nav"> <!-- The name of the unordered list is "nav navbar-nav" -->
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden"> <a href="#page-top"></a> </li> <!-- Defining how tags are controlled -->
+          <li> <a class="page-scroll" href="#about">About</a> </li> <!-- Navigation bar name is "About" -->
+          <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li> <!-- Navigation bar name is "Portfolio" -->
+          <li> <a class="page-scroll" href="#skill">skill</a> </li> <!-- Navigation bar name is "skill" -->
+          <li> <a class="page-scroll" href="#experience">Experience</a> </li> <!-- Navigation bar name is "Experience" -->
+          <li> <a class="page-scroll" href="#some stats">Some stats</a> </li> <!-- Navigation bar name is "Some stats" -->
+          <li> <a class="page-scroll" href="#contact">Contact</a> </li> <!-- Navigation bar name is "Contact" -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- About Section -->
+<div id="about"> <!-- Static web page elements is "about" -->
+  <div class="container"> <!-- Static web page elements is "container" -->
+    <div class="section-title text-center center"> <!-- Text centered -->
+      <!-- Set the title to "About me" -->
+      <h2>About me</h2> <!-- Second level title is "About me" -->
+      <hr> <!-- Titles and paragraphs separated by horizontal lines -->
+    </div>
+    <div class="row"> <!-- Static web page elements is "row" -->
+      <!-- Import personal photos -->
+      <div class="col-md-12 text-center"><img src="img/jennifer2.jpg" class="img-responsive"></div> <!-- Picture center -->
+      <div class="col-md-8 col-md-offset-2"> <!-- Static web page elements is "col-md-8 col-md-offset-2" -->
+        <div class="justify"> <!-- Static web page elements is "justify" -->
+          <!-- Alignment of paragraph text -->
+          <p style="text-align:justify"> My name is Jennifer. I am studying in the two grade of College of Visual Arts in Shanghai. My major is interactive media art. I am a conscientious, conscientious and innovative person. Able to use the computer skillfully, master the necessary office office software, keep close relationship with the teachers and students, and be willing to help students to solve the trouble of learning and life, be good at summing up, good communication, good work style and teamwork spirit. I am familiar with and master the relevant knowledge of this field. I learned to work hard and study hard in my university years. This is the treasure we are looking for.</p>
+        </div><br/>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Section -->
+<div id="portfolio"> <!-- Name is "portfolio" -->
+  <div class="container"> <!-- Static web page elements is "containe" -->
+    <div class="section-title text-center center"> <!-- center -->
+      <h2>My Portfolio</h2> <!-- Second level title is "My Portfolio" -->
+      <hr><!-- Titles and paragraphs separated by horizontal lines -->  
+    <div class="categories"> <!-- Static web page elements is "categories" -->
+      <ul class="cat"> <!-- Static web page elements is "cat" -->
+        <li>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">All</a></li> <!-- List name is "All" -->
+            <li><a href="#" data-filter=".web">Interactive device</a></li> <!-- List name is "Interactive device" -->
+            <li><a href="#" data-filter=".app">Design</a></li> <!-- List name is "Design" -->
+          </ol>
+        </li>
+      </ul>
+      <div class="clearfix"></div> <!-- Static web page elements is "clearfix" -->
+    </div>
+    <div class="row"><!-- Static web page elements is "row" -->
+      <div class="portfolio-items"> <!-- Static web page elements is "portfolio-items" -->
+        <div class="col-sm-6 col-md-3 col-lg-3 web"> <!-- Static web page elements is "col-sm-6 col-md-3 col-lg-3 web" -->
+          <div class="portfolio-item"> <!-- Static web page elements is "portfolio-item" -->
+            <div class="hover-bg"> <a href="img/portfolio/1.jpg" title="Project description" rel="prettyPhoto"> <!-- Import pictures -->
+              <div class="hover-text"> <!-- Static web page elements is "hover-text" -->
+                <h4>Research on media voice</h4> <!-- 4th level title is "Research on media voice" -->
+                <small>Noisy Fly</small> <!-- Set small fonts is "Noisy Fly" -->
+                <div class="clearfix"></div> <!-- Static web page elements is "clearfix" -->
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/a.jpg " class="img-responsive" alt="Project Title" style="width:300px;height:200px;"> </a> </div> <!-- Import pictures -->
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 app"> <!-- Set small fonts is "col-sm-6 col-md-3 col-lg-3 app" -->
+          <div class="portfolio-item"> <!-- Set small fonts is "portfolio-item" -->
+            <div class="hover-bg"> <a href="img/portfolio/2.jpg" title="Project description" rel="prettyPhoto"> <!-- Import pictures -->
+              <div class="hover-text"><!-- Set small fonts is "hover-text" -->
+                <h4>Arduino</h4> <!-- 4th level title is "Arduino" -->
+                <small>Sensor module</small> <!-- Set small fonts is "Sensor module" -->
+                <div class="clearfix"></div> <!-- Set small fonts is "clearfix" -->
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/2.jpg" class="img-responsive" alt="Project Title" style="width:300px;height:300px;"> </a> </div> <!-- Import pictures -->
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 web"> <!-- Set small fonts is "col-sm-6 col-md-3 col-lg-3 web" -->
+          <div class="portfolio-item"> <!-- Set small fonts is "portfolio-item" -->
+            <div class="hover-bg"> <a href="img/portfolio/3.jpg" title="Project description" rel="prettyPhoto"> <!-- Import pictures -->
+              <div class="hover-text"> <!-- Set small fonts is "hover-text" -->
+                <h4>Interactive mask</h4> <!-- 4th level title is "Interactive mask" -->
+                <small>Silence</small> <!-- Set small fonts is "Silence" -->
+                <div class="clearfix"></div> <!-- Set small fonts is "clearfix" -->
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/3.jpg" class="img-responsive" alt="Project Title" style="width:300px;height:300px;"> </a> </div> <!-- Import pictures -->
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 web"> <!-- Set small fonts is "col-sm-6 col-md-3 col-lg-3 web" -->
+          <div class="portfolio-item"> <!-- Set small fonts is "portfolio-item" -->
+            <div class="hover-bg"> <a href="img/portfolio/4.jpg" title="Project description" rel="prettyPhoto"> <!-- Import pictures -->
+              <div class="hover-text"> <!-- Set small fonts is "hover-text" -->
+                <h4>Interactive sound</h4> <!-- 4th level title is "Interactive sound" -->
+                <small>Sollision</small> <!-- Set small fonts is "Sollision" -->
+                <div class="clearfix"></div> <!-- Set small fonts is "clearfix" -->
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/4.jpg" class="img-responsive" alt="Project Title" style="width:300px;height:300px;"> </a> </div> <!-- Import pictures -->
+          </div> 
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 app"> <!-- Set small fonts is "col-sm-6 col-md-3 col-lg-3 app" -->
+          <div class="portfolio-item"> <!-- Set small fonts is "portfolio-item" -->
+            <div class="hover-bg"> <a href="img/portfolio/5.jpg" title="Project description" rel="prettyPhoto"> <!-- Import pictures -->
+              <div class="hover-text"> <!-- Set small fonts is "hover-text" -->
+                <h4>Modern Art</h4> <!-- 4th level title is "Modern Art" -->
+                <small>Second personality</small> <!-- Set small fonts is "Second personality" -->
+                <div class="clearfix"></div> <!-- Set small fonts is "clearfix" -->
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/5.jpg" class="img-responsive" alt="Project Title" style="width:300px;height:300px;"> </a> </div> <!-- Import pictures -->
+          </div> 
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 branding"> <!-- Set small fonts is "col-sm-6 col-md-3 col-lg-3 branding" -->
+          <div class="portfolio-item"> <!-- Set small fonts is "portfolio-item" -->
+            <div class="hover-bg"> <a href="img/portfolio/6.jpg" title="Project description" rel="prettyPhoto"> <!-- Import pictures -->
+              <div class="hover-text"> <!-- Set small fonts is "hover-text" -->
+                <h4>Graphic Arts</h4> <!-- 4th level title is "Graphic Arts" -->
+                <small>Clip art</small> <!-- Set small fonts is "Clip art" -->
+                <div class="clearfix"></div> <!-- Set small fonts is "clearfix" -->
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/6.jpg" class="img-responsive" alt="Project Title" style="width:300px;height:300px;"> </a> </div> <!-- Import pictures --> 
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 branding app"> <!-- Set small fonts is "col-sm-6 col-md-3 col-lg-3 branding app" -->
+          <div class="portfolio-item"> <!-- Set small fonts is "portfolio-item" -->
+            <div class="hover-bg"> <a href="img/portfolio/7.jpg" title="Project description" rel="prettyPhoto"> <!-- Import pictures -->
+              <div class="hover-text"> <!-- Set small fonts is "hover-text" -->
+                <h4>Creative poster</h4> <!-- 4th level title is "Creative poster" -->
+                <small>Thought</small> <!-- Set small fonts is "Thought" -->
+                <div class="clearfix"></div> <!-- Set small fonts is "clearfix" -->
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/7.jpg" class="img-responsive" alt="Project Title" style="width:300px;height:300px;"> </a> </div> <!-- Import pictures -->
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 web"> <!-- Set small fonts is "col-sm-6 col-md-3 col-lg-3 web" -->
+          <div class="portfolio-item"> <!-- Set small fonts is "portfolio-item" -->
+            <div class="hover-bg"> <a href="img/portfolio/8.jpg" title="Project description" rel="prettyPhoto"> <!-- Import pictures -->
+              <div class="hover-text"> <!-- Set small fonts is "hover-text" -->
+                <h4>Behavior</h4> <!-- 4th level title is "Behavior" -->
+                <small>Humanity</small> <!-- Set small fonts is "Humanity" -->
+                <div class="clearfix"></div> <!-- Set small fonts is "clearfix" -->
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/8.jpg" class="img-responsive" alt="Project Title" style="width:300px;height:300px;"> </a> </div> <!-- Import pictures -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Skills Section -->
+<div id="skill" class="text-center"> <!-- Named middle -->
+  <div class="container"> <!-- Set small fonts is "container" -->
+    <div class="section-title center"> <!-- Set small fonts is "ection-title center" -->
+      <h2>Skill</h2> <!-- second level title is "Skill" -->
+      <hr> <!-- Titles and paragraphs separated by horizontal lines -->
+    </div>
+    <div class="row"> <!-- Set small fonts is "row" -->
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span> <!-- Define HTML as 95 percent -->
+        <h4>HTML</h4>
+      </div>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="74"> <span class="percent">74</span> </span> <!-- Define CSS as 74 percent -->
+        <h4>CSS</h4>
+      </div>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span> <!-- Define WordPress as 80 percent -->
+        <h4>WordPress</h4>
+      </div>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span> <!-- Define Processing as 80 percent -->
+        <h4>Processing</h4>
+      </div>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="95"> <span class="percent">95</span> </span> <!-- Define Photoshop as 95 percent -->
+        <h4>Photoshop</h4>
+      </div>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="95"> <span class="percent">95</span> </span> <!-- Define Illustrator as 95 percent -->
+        <h4>Illustrator</h4>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Resume Section -->
+<div id="experience" class="text-center"> <!-- Text centered -->
+  <div class="container"> <!-- Set small fonts is "container" -->
+    <div class="section-title center"> <!-- Text centered -->
+      <h2>Experience</h2> <!-- second level title is "Experience" -->
+      <hr> <!-- Titles and paragraphs separated by horizontal lines -->
+    </div>
+    <div class="row"> <!-- Set small fonts is "row" -->
+      <div class="col-lg-12"> <!-- Set small fonts is "col-lg-12" -->
+        <ul class="timeline"> 
+          <li>
+            <div class="timeline-image"> <!-- Set small fonts is "timeline-image" -->
+              <h4>Feb 2016 <br> <!-- 4th level title is "Feb 2016" -->
+                - <br>
+                Present </h4>
+            </div>
+            <div class="timeline-panel"> <!-- Set small fonts is "timeline-panel" -->
+              <div class="timeline-heading"> <!-- Set small fonts is "timeline-heading" -->
+                <h4>Graphic design</h4> <!-- 4th level title is "Graphic design" -->
+                <h4 class="subheading">Visual designer</h4> <!-- 4th level title is "Visual designer" -->
+              </div>
+              <div class="timeline-body"> <!-- Set small fonts is "timeline-body" -->
+                <p>Graphic design work is a subjective and creative work, most of the graphic designers are through continuous self-education to do further study and improve the design ability. For example, we should pay more attention to the design and collection of all kinds of posters, propaganda, magazines and books, or browse the works of other designers on the Internet, in order to stimulate their design inspiration. Graphic designers should have a keen sense of beauty, but also have certain qualities in writing. Therefore, you can read extensively and increase your knowledge and sensitivity. In addition, I will mostly use the community on the Internet to exchange views.</p> <!-- Paragraph content -->
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted"> <!-- List name is "timeline-inverted" -->
+            <div class="timeline-image"> <!-- Set small fonts is "timeline-image" -->
+              <h4>Nov 2017 <br>
+                - <br>
+                Jan 2018 </h4>
+            </div>
+            <div class="timeline-panel"> <!-- Set small fonts is "timeline-panel" -->
+              <div class="timeline-heading"> <!-- Set small fonts is "timeline-heading" -->
+                <h4>Website</h4> <!-- 4th level title is "Website" -->
+                <h4 class="subheading">Web Design</h4> <!-- 4th level title is "subheading" -->
+              </div>
+              <div class="timeline-body"> <!-- Set small fonts is "timeline-body" -->
+                <p>I am proficient in many web design tools such as Photoshop, Coreldraw, Frontpage, Dreamweaver and so on. I can apply the aesthetic view of graphic design to the website design (the difference is that the production of dynamic web pages is not achieved by graphic design, it is an extension of the aesthetic way).</p> <!-- Paragraph content -->
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image"> <!-- Set small fonts is "timeline-image" -->
+              <h4>Dec 2018 <br>
+                - <br>
+                Present </h4>
+            </div>
+            <div class="timeline-panel"> <!-- Set small fonts is "timeline-panel" -->
+              <div class="timeline-heading"> <!-- Set small fonts is "timeline-heading" -->
+                <h4>Interaction device</h4>
+                <h4 class="subheading">Arduino & Unity</h4>
+              </div>
+              <div class="timeline-body">
+                <p>The interactive device is a work of art that involves the audience in some aspect. Others include computer and sensor response, light, heat or other types of sensing technology. Internet Art and electronic art provide interactive choices in many aspects.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="section-title center">
+      <h2>Education</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
+          
+          <!-- Education Section-->
+          
+          <li>
+            <div class="timeline-image">
+              <h4>2014 <br>
+                - <br>
+                2016 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>High school</h4>
+                <h4 class="subheading">Anqing City, Anhui Province Petrochemical First Middle School</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Studying the art of painting for three years</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <h4>2016 <br>
+                - <br>
+                2018 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>University</h4>
+                <h4 class="subheading">Shanghai Institute of Visual Arts</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Detao Interactive Media Art</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Achievements Section -->
+<div id="some stats" class="section dark-bg">
+  <div class="container">
+    <div class="section-title center text-center">
+      <h2>Some stats</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <i class="fa fa-smile-o"></i> <span class="count">120</span>
+          <h4>Happy things</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <i class="fa fa-code"></i> <span class="count">4,600</span>
+          <h4>Working hours</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <i class="fa fa-check-square-o"></i> <span class="count">340</span>
+          <h4>Projects completed</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <i class="fa fa-trophy"></i> <span class="count">6</span>
+          <h4>Awards won</h4> <!-- 4th level title is "Contact me" -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Contact Section -->
+<div id="contact" class="text-center"> <!-- Center -->
+  <div class="container"> <!-- Set small fonts is "container" -->
+    <div class="section-title center"> <!-- Center -->
+      <h2>Contact me</h2> <!-- Second level title is "Contact me" -->
+      <hr> <!-- Titles and paragraphs separated by horizontal lines -->
+    </div>
+    <div class="col-md-8 col-md-offset-2"> <!-- Set small fonts is "col-md-8 col-md-offset-2" -->
+      <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i> <!-- Set small fonts is "col-md-4" -->
+        <p>Shanghai Institute of Visual Arts<br> <!-- Paragraph content is "2018 Jennifer.thanks.1014242348@qq.com" Newline -->
+          China, Shanghi</p>
+      </div>
+      <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i> <!-- Set small fonts is "col-md-4" -->
+        <p>1014242348@qq.com</p> <!-- Email is "1014242348@qq.com" -->
+      </div>
+      <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i> <!-- Set small fonts is "col-md-4" -->
+        <p> 18101716819</p> <!-- Phone number is "18101716819" -->
+      </div>
+      <hr>
+      <div class="clearfix"></div> <!-- Set small fonts is "clearfix" -->
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container text-center"> <!-- Center -->
+    <div class="fnav"> <!-- Set small fonts is "fnav" -->
+      <p>2018 Jennifer.thanks.1014242348@qq.com</p> <!-- Paragraph content is "2018 Jennifer.thanks.1014242348@qq.com" -->
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jquery.counterup.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
